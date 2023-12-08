@@ -1,11 +1,12 @@
 <template>
+
   <div id="app" :class="{ 'text-dark': !nightMode, 'text-light': nightMode }">
     <Navbar @scroll="scrollTo" @nightMode="switchMode" :nightMode="nightMode" />
     <div class="parent">
       <Home :nightMode="nightMode" />
       <About id="about" :nightMode="nightMode" />
       <Skills id="skills" :nightMode="nightMode" />
-      <Portfolio id="portfolio" :nightMode="nightMode" /> -->
+      <Portfolio id="portfolio" :nightMode="nightMode" /> 
       <!-- <Recommendation :nightMode="nightMode" /> -->
       <!-- <Contact id="contact" :nightMode="nightMode" /> -->
       <Footer :nightMode="nightMode" /> 
@@ -20,7 +21,7 @@ import About from "./components/About";
 import Skills from "./components/Skills";
 import Portfolio from "./components/Portfolio";
 import Recommendation from "./components/Recommendation";
-import Contact from "./components/Contact";
+// import Contact from "./components/Contact";
 import Footer from "./components/Footer";
 
 import info from "../info";
@@ -33,8 +34,8 @@ export default {
     About,
     Skills,
     Portfolio,
-    Recommendation,
-    Contact,
+    // Recommendation,
+    // Contact,
     Footer,
   },
   data() {

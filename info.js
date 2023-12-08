@@ -9,9 +9,9 @@ let info = {
     }
   },
   description:
-    "I am KaShun SHUM, a final-year undergraduate student, incoming PhD student at The Hong Kong University of Science and Technology (Department of Computer Science and Mathematics), advised by Prof. Tong Zhang.",
+    "I am KaShun SHUM, a year-2 MPhil student at The Hong Kong University of Science and Technology (Department of Computer Science and Mathematics), advised by Prof. Tong Zhang.",
   description_further:
-    "My research interests include various fields in NLP. I am also interested in Front-end Development, Penetration Testing (Web and Crypto Exploit) and Embedded Development (Robots).",
+    "My research interests include various fields in Large Language Models <span style='font-weight:bold'>(Prompt Learning, Hallucination-related and Distillation)</span>. I am also interested in Front-end Development, Penetration Testing (Web and Crypto Exploit) and Embedded Development (Robots).",
   links: {
     linkedin: "https://www.linkedin.com/in/kashunshum/",
     github: "https://github.com/SHUMKASHUN",
@@ -23,8 +23,8 @@ let info = {
     {
       name: "The Hong Kong University of Science and Technology",
       place: "Hong Kong, China",
-      date: "Sept, 2022 - June, 2026(Expected)",
-      degree: "PhD in Computer Science and Engineering",
+      date: "Sept, 2022 - June, 2024(Expected)",
+      degree: "MPhil in Computer Science and Engineering",
       gpa: "",
       skills: [
         // "Skills gained:",
@@ -38,7 +38,7 @@ let info = {
       name: "The Hong Kong University of Science and Technology",
       course:"Full Stack Developer",
       place: "Hong Kong, China",
-      date: "Sept, 2018 - June, 2022(Expected)",
+      date: "Sept, 2018 - June, 2022",
       degree: "BSc in Computer Science and Mathematics",
       gpa: "",
       description:
