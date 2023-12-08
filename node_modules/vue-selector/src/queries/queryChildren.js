@@ -1,0 +1,15 @@
+/**
+ * Search a component's children with given name
+ *
+ * @param {Object} component - Vue component
+ * @param {String} name
+ * @return {Array}
+ */
+export default function queryChildren (component, name) {
+  var result = []
+  var children = component.$children
+  children.forEach(function (component) {
+    if (component.constructor.name === name) result.push(component)
+  })
+  return result
+}
