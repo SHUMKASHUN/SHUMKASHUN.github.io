@@ -1,7 +1,7 @@
 let info: any = {
     name: "SHUM KASHUN",
     logo_name: "KASHUN",
-    // flat_picture: require("./src/assets/photo.png"),
+    // flat_picture: require("./photo.png"),
     config: {
       use_cookies: true,
       navbar: {
@@ -121,10 +121,10 @@ let info: any = {
         pictures: [
   
           {
-            // img: require("./src/assets/portfolio/RM/RM_1.png")
+            // img: require("./portfolio/RM/RM_1.png")
           },
           {
-            // img: require("./src/assets/portfolio/RM/RM_2.png")
+            // img: require("./portfolio/RM/RM_2.png")
           },
   
         ],
@@ -140,7 +140,7 @@ let info: any = {
         name: "Kerry Logistic Hackathon ",
         pictures: [
           {
-            // img: require("./src/assets/portfolio/KL/KL.png")
+            // img: require("./portfolio/KL/KL.png")
           },
         ],
         technologies: ["C++","Drone",],
@@ -154,7 +154,7 @@ let info: any = {
         name: "HackUST 2021",
         pictures: [
           {
-            // img: require("./src/assets/portfolio/hackUST2021/hackUST2021.png")
+            // img: require("./portfolio/hackUST2021/hackUST2021.png")
           },
         ],
         technologies: ["Flutter", "Dart", "HTML"],
@@ -179,7 +179,7 @@ let info: any = {
   export const articles = [
     {
       id: 1,
-      imageSrc: '/src/assets/paperFigures/FIRST.png',
+      imageSrc: '/paperFigures/FIRST.png',
       authors: 'KaShun Shum, Minrui Xu, Jianshu Zhang, Zixin Chen, Shizhe Diao, Hanze Dong, Jipeng Zhang, Muhammad Omer Raza',
       title: 'FIRST: Teach A Reliable Large Language Model Through Efficient Trustworthy Distillation',
       description: ' Despite the great accuracy fine-tuning achieves, it is still far away from satisfactory trustworthiness due to "tuning-induced mis-calibration". This paper delve deeply into why and how mis-calibration exists in fine-tuned models, and how distillation can alleviate the issue. Then we further propose a brand new method named Efficient Trustworthy Distillation (FIRST), which utilizes a small portion of teacher\'s knowledge to obtain a reliable language model in a cost-efficient way.',
@@ -193,7 +193,7 @@ let info: any = {
     },
     {
         id: 2,
-        imageSrc: '/src/assets/paperFigures/RagTruth.jpg',
+        imageSrc: '/paperFigures/RagTruth.jpg',
         authors: 'Yuanhao Wu, Juno Zhu, Siliang Xu, Kashun Shum, Cheng Niu, Randy Zhong, Juntong Song, Tong Zhang',
         title: 'RAGTruth: A Hallucination Corpus for Developing Trustworthy Retrieval-Augmented Language Models',
         description: ' This paper presents RAGTruth, a corpus tailored for analyzing word-level hallucinations in various domains and tasks within the standard RAG frameworks for LLM applications. RAGTruth comprises nearly 18,000 naturally generated responses from diverse LLMs using RAG. These responses have undergone meticulous manual annotations at both the individual cases and word levels, incorporating evaluations of hallucination intensity.',
@@ -207,7 +207,7 @@ let info: any = {
       },
       {
         id: 3,
-        imageSrc: '/src/assets/paperFigures/Plum.png',
+        imageSrc: '/paperFigures/Plum.png',
         authors: 'Rui Pan, Shuo Xing, Shizhe Diao, Wenhe Sun, Xiang Liu, Kashun Shum, Renjie Pi, Jipeng Zhang, Tong Zhang',
         title: 'Plum: Prompt Learning using Metaheuristic',
         description: ' In this paper, we introduce metaheuristics, a branch of discrete non-convex optimization methods with over 100 options, as a promising approach to prompt learning. Within our paradigm, we test six typical methods: hill climbing, simulated annealing, genetic algorithms with/without crossover, tabu search, and harmony search, demonstrating their effectiveness in white-box and black-box prompt learning.',
@@ -221,7 +221,7 @@ let info: any = {
       },
       {
         id: 4,
-        imageSrc: '/src/assets/paperFigures/LMFlow.png',
+        imageSrc: '/paperFigures/LMFlow.png',
         authors: 'Shizhe Diao, Rui Pan, Hanze Dong, KaShun Shum, Jipeng Zhang, Wei Xiong, Tong Zhang',
         title: 'LMFlow: An Extensible Toolkit for Finetuning and Inference of Large Foundation Models',
         description: 'We introduce an extensible and lightweight toolkit, LMFlow, which aims to simplify the domain- and task-aware finetuning of general foundation models. LMFlow offers a complete finetuning workflow for a foundation model to support specialized training with limited computing resources. Furthermore, it supports continuous pretraining, instruction tuning, parameter-efficient finetuning, alignment tuning, inference acceleration, long context generalization, model customization, and even multimodal finetuning, along with carefully designed and extensible APIs.',
@@ -235,7 +235,7 @@ let info: any = {
       },
       {
         id: 5,
-        imageSrc: '/src/assets/paperFigures/Raft.png',
+        imageSrc: '/paperFigures/Raft.png',
         authors: 'Hanze Dong, Wei Xiong, Deepanshu Goyal, Rui Pan, Shizhe Diao, Jipeng Zhang, Kashun Shum, Tong Zhang',
         title: 'RAFT: Reward rAnked FineTuning for Generative Foundation Model Alignment',
         description: 'In this paper, we introduce a new framework, Reward rAnked FineTuning (RAFT), designed to align generative models effectively. Utilizing a reward model and a sufficient number of samples, our approach selects the high-quality samples, discarding those that exhibit undesired behavior, and subsequently enhancing the model by fine-tuning on these filtered samples. Our studies show that RAFT can effectively improve the model performance in both reward learning and other automated metrics in both large language models and diffusion models.',
@@ -249,7 +249,7 @@ let info: any = {
       },
       {
         id: 6,
-        imageSrc: '/src/assets/paperFigures/Automate-CoT.png',
+        imageSrc: '/paperFigures/Automate-CoT.png',
         authors: 'KaShun Shum, Shizhe Diao, Tong Zhang',
         title: 'Automatic Prompt Augmentation and Selection with Chain-of-Thought from Labeled Data',
         description: 'This paper proposes a new strategy, Automate-CoT (Automatic Prompt Augmentation and Selection with Chain-of-Thought), that can bypass human engineering of CoT by automatically augmenting rational chains from a small labeled dataset, and then pruning low-quality chains to construct a candidate pool of machine-generated rationale chains based on the labels. Finally, it selects the optimal combination of several rationale chains from the pool for CoT prompting by employing a variance-reduced policy gradient strategy to estimate the significance of each example.',
@@ -263,7 +263,7 @@ let info: any = {
       },
       {
         id: 7,
-        imageSrc: '/src/assets/paperFigures/TILGAN.png',
+        imageSrc: '/paperFigures/TILGAN.png',
         authors: 'Shizhe Diao, Xinwei Shen, Kashun Shum, Yan Song, Tong Zhang',
         title: 'TILGAN: transformer-based implicit latent GAN for diverse and coherent text generation',
         description: ' In this work, we propose TILGAN, a Transformerbased Implicit Latent GAN, which combines a Transformer autoencoder and GAN in the latent space with a novel design and distribution matching based on the Kullback-Leibler (KL) divergence. Specifically, to improve local and global coherence, we explicitly introduce a multi-scale discriminator to capture the semantic information at varying scales among the sequence of hidden representations encoded by Transformer.',
