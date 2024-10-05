@@ -1,31 +1,17 @@
 <template>
   <div class="logo-div">
     <span
-      class="logo-title-name"
-      :class="{ pgray: !nightMode, 'text-light': nightMode }"
-      >{{ name }}</span
+      class="logo-title-name text-zinc-600 "
+      >KASHUN</span
     >
-    <span class="logo-title-dot pblue">{{ dot }}</span>
+    <span class="logo-title-dot text-blue-300/75">.</span>
   </div>
 </template>
 
-<script>
-import info from "../../../info";
+<script setup lang="ts">
+// import info from "../../assets/info";
 
-export default {
-  name: "Logo",
-  props: {
-    nightMode: {
-      type: Boolean,
-    },
-  },
-  data() {
-    return {
-      name: info.logo_name,
-      dot: ".",
-    };
-  },
-};
+
 </script>
 
 
@@ -36,7 +22,7 @@ export default {
 }
 
 .logo-title-name {
-  font-size: 35px;
+  font-size: 40px;
   font-weight: 500;
   letter-spacing: 2px;
   transition: 0.5s all;
