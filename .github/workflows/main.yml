@@ -3,7 +3,6 @@ name: change
 
 # 當以下事件發生時，觸發
 on:
-  # 這邊設定的是：push/pullrequest到main時即觸發
   push:
     branches:
       - main
