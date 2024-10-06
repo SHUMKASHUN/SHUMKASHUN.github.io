@@ -58,12 +58,21 @@
             </span>
         </a>
         <!-- LinkedIn -->
-        <a href="https://www.linkedin.com/in/kashunshum/" target="_blank" class="flex pl-[44px] group border-b-[1px] pb-2">
+        <a href="https://www.linkedin.com/in/kashunshum/" target="_blank" class="flex pl-[44px] group">
             <span class="w-6 h-6 text-center">
                 <span class="fa-brands fa-linkedin text-zinc-500 fa-lg group-hover:text-blue-500/80"></span>
             </span>
             <span class="text-center">
                 <span class="ml-4 text-zinc-700 text-sm font-medium group-hover:text-blue-400/75">LinkedIn</span>
+            </span>
+        </a>
+        <!-- Resume -->
+        <a href="/25Summer_Intern_SHUM_KASHUN.pdf" target="_blank" class="flex pl-[44px] group border-b-[1px] pb-2">
+            <span class="w-6 h-6 text-center">
+                <span class="fa-solid fa-file-pdf text-zinc-500 fa-lg group-hover:text-blue-500/80"></span>
+            </span>
+            <span class="text-center">
+                <span class="ml-4 text-zinc-700 text-sm font-medium group-hover:text-blue-400/75">Resume</span>
             </span>
         </a>
     </div>

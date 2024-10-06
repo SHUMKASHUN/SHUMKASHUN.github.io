@@ -1,6 +1,6 @@
 <template>
 
-<div class="flex bg-white w-full max-w-7xl content-center items-center py-2 px-4 ">
+<div class="flex bg-white w-full max-w-7xl content-center items-center py-2 px-4 max-sm:hidden">
     <Logo />
     <div class="grow">
      <!-- change to v-for later -->
