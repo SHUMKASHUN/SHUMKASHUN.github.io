@@ -1,10 +1,12 @@
 <script setup lang="ts">
 // import { ref } from 'vue'
 import info from '../assets/info'
-var hightlight_keywords = ['KaShun SHUM', 'Data-Centric Language Model Pre-training','Post-training','Trustworthy LLM', 'Knowledge Distillation', 'SFT', 'Prompt Learning']
+var hightlight_keywords = ['KaShun SHUM', 'Pre-training','Post-training', 'code agent' ]
 var keywords2Link = {
     "Prof. Junxian HE": "https://jxhe.github.io/" ,
-    "The Hong Kong University of Science and Technology": "https://hkust.edu.hk/"
+    "The Hong Kong University of Science and Technology": "https://hkust.edu.hk/",
+    "Qwen Team": "https://github.com/QwenLM",
+    "Binyuan HUI": "https://huybery.github.io/"
 }
 function hightLightHandle(text: string) :string {
     if(text){
@@ -34,10 +36,10 @@ function hightLightHandle(text: string) :string {
         <!-- 第二段介绍 -->
         <p v-html="hightLightHandle(info.research_interest)"></p>
         <!-- 广告 -->
-        <div class="bg-zinc-100 rounded-lg w-full pl-4 pr-2 py-6">
+        <!-- <div class="bg-zinc-100 rounded-lg w-full pl-4 pr-2 py-6">
             <span class="fa-light fa-rectangle-ad px-2 text-blue-600/75 fa-xl"></span>
             I am looking for a summer Internship about Large Lanaguge Model in 2025 in the US. If there is any potential opportunity to collaborate, please feel free to contact me. Thanks!
-        </div>
+        </div> -->
     </div>
 </template>
 

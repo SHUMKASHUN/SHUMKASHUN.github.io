@@ -9,9 +9,13 @@ let info: any = {
       }
     },
     description:
-      "I am KaShun SHUM, a first-year PhD student at The Hong Kong University of Science and Technology (Department of Computer Science and Engineering), advised by Prof. Junxian HE. Before that, I received MPhil degree in Computer Science and Engineering and Bachelor degree in Data Science and Technology from The Hong Kong University of Science and Tehcnology, in 2022 and 2024 respectively.",
+      "I am KaShun SHUM, a first-year PhD student at The Hong Kong University of Science and Technology (Department of Computer Science and Engineering), advised by Prof. Junxian HE. Before that, I received MPhil degree in Computer Science and Engineering and Bachelor degree in Data Science and Technology from The Hong Kong University of Science and Tehcnology, in 2024 and 2022 respectively.",
     research_interest:
-      "My recent research focuses on Data-Centric Language Model Pre-training while I also have much previous experience in Post-training, Trustworthy LLM, Knowledge Distillation, Prompt Learning etc. On top of my research, I am also interested in Front-end Development, Penetration Testing (Web and Crypto Exploit) and Embedded Development (Robots).",
+      `I am currently intern at Qwen Team at Bei Jing, supervised by Binyuan HUI. My recent research focuses on code agent with multi-turn RL.
+
+Previously I widely explored the whole pipeline of LLM, ranging from Pre-training (Data-Centric), to Post-training (Trustworthy LLM, Knowledge Distillation, Prompt Learning) etc.
+
+On top of my research, I am equipped with full-stack abilities which include Front-end Development (Vue), backend (Django), Penetration Testing (Web and Crypto Exploit) and Embedded Development (Robots).`,
     links: {
       linkedin: "https://www.linkedin.com/in/kashunshum/",
       github: "https://github.com/SHUMKASHUN",
@@ -23,7 +27,7 @@ let info: any = {
       {
         name: "The Hong Kong University of Science and Technology",
         place: "Hong Kong, China",
-        date: "Sept, 2022 - June, 2024(Expected)",
+        date: "Sept, 2022 - Sept, 2024",
         degree: "MPhil in Computer Science and Engineering",
         gpa: "",
         skills: [
@@ -178,7 +182,35 @@ let info: any = {
   
   export const articles = [
     {
-      id: 1,
+        id: 9,
+        imageSrc: '/paperFigures/preselect.png',
+        authors: 'Kashun Shum, Yuzhen Huang, Hongjian Zou, Qi Ding, Yixuan Liao, Xiaoxin Chen, Qian Liu, Junxian He',
+        title: 'Predictive data selection: The data that predicts is the data that teaches',
+        description: 'In this paper,we hypothesize that data on which model losses are predictive of downstream abilities also contribute effectively to learning. To leverage this insight, we introduce predictive data selection (PreSelect), a lightweight and efficient data selection method that requires training and deploying only a fastText-based scorer.',
+        date: '2025-06',
+        year: 2025,
+        conference_year: 'ICML 2025',
+        conference_name: 'ICML',
+        tags: ['Pre-training', 'Data Selection'],
+        arxiv: "https://arxiv.org/pdf/2503.00808",
+        github: "https://github.com/hkust-nlp/PreSelect"
+    }, 
+    {
+        id: 8,
+        imageSrc: '/paperFigures/misleading.png',
+        authors: 'Zixin Chen, Sicheng Song, Kashun Shum, Yanna Lin, Rui Sheng, Huamin Qu',
+        title: 'Unmasking Deceptive Visuals: Benchmarking Multimodal Large Language Models on Misleading Chart Question Answering',
+        description: 'This paper introduces the Misleading Chart Question Answering (Misleading ChartQA) Benchmark, a large-scale multimodal dataset designed to assess MLLMs in identifying and reasoning about misleading charts. It contains over 3,000 curated examples, covering 21 types of misleaders and 10 chart types.',
+        date: '2025-04',
+        year: 2025,
+        conference_year: 'Arxiv',
+        conference_name: 'Arxiv',
+        tags: ['Benchmark', 'Multimodal LLM','Misleading ChartQA'],
+        arxiv: "https://arxiv.org/abs/2503.18172",
+        github: ""
+    },
+    {
+      id: 7,
       imageSrc: '/paperFigures/FIRST.png',
       authors: 'KaShun Shum, Minrui Xu, Jianshu Zhang, Zixin Chen, Shizhe Diao, Hanze Dong, Jipeng Zhang, Muhammad Omer Raza',
       title: 'FIRST: Teach A Reliable Large Language Model Through Efficient Trustworthy Distillation',
@@ -192,7 +224,7 @@ let info: any = {
       github: "https://github.com/SHUMKASHUN/FIRST"
     },
     {
-        id: 2,
+        id: 6,
         imageSrc: '/paperFigures/RagTruth.jpg',
         authors: 'Yuanhao Wu, Juno Zhu, Siliang Xu, Kashun Shum, Cheng Niu, Randy Zhong, Juntong Song, Tong Zhang',
         title: 'RAGTruth: A Hallucination Corpus for Developing Trustworthy Retrieval-Augmented Language Models',
@@ -206,7 +238,7 @@ let info: any = {
         github: "https://github.com/ParticleMedia/RAGTruth"
       },
       {
-        id: 3,
+        id: 5,
         imageSrc: '/paperFigures/Plum.png',
         authors: 'Rui Pan, Shuo Xing, Shizhe Diao, Wenhe Sun, Xiang Liu, Kashun Shum, Renjie Pi, Jipeng Zhang, Tong Zhang',
         title: 'Plum: Prompt Learning using Metaheuristic',
@@ -234,7 +266,7 @@ let info: any = {
         github: "https://github.com/OptimalScale/LMFlow"
       },
       {
-        id: 5,
+        id: 3,
         imageSrc: '/paperFigures/Raft.png',
         authors: 'Hanze Dong, Wei Xiong, Deepanshu Goyal, Rui Pan, Shizhe Diao, Jipeng Zhang, Kashun Shum, Tong Zhang',
         title: 'RAFT: Reward rAnked FineTuning for Generative Foundation Model Alignment',
@@ -248,7 +280,7 @@ let info: any = {
         github: "https://github.com/OptimalScale/LMFlow"
       },
       {
-        id: 6,
+        id: 2,
         imageSrc: '/paperFigures/Automate-CoT.png',
         authors: 'KaShun Shum, Shizhe Diao, Tong Zhang',
         title: 'Automatic Prompt Augmentation and Selection with Chain-of-Thought from Labeled Data',
@@ -262,7 +294,7 @@ let info: any = {
         github: "https://github.com/SHUMKASHUN/Automate-CoT"
       },
       {
-        id: 7,
+        id: 1,
         imageSrc: '/paperFigures/TILGAN.png',
         authors: 'Shizhe Diao, Xinwei Shen, Kashun Shum, Yan Song, Tong Zhang',
         title: 'TILGAN: transformer-based implicit latent GAN for diverse and coherent text generation',

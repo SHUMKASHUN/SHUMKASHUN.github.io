@@ -1,8 +1,8 @@
 <template>
   <div class="flex flex-col md:flex-row items-center rounded-lg p-4 ">
     <!-- 左侧图片部分 -->
-    <div class="flex flex-col items-center mr-6 w-[300px] flex-shrink-0">  <!-- 增加到更大的宽度和高度 -->
-        <div class="bg-orange-300/50 px-2 py-1 mb-2 rounded-md ">
+    <div class="flex flex-col items-center mr-6 w-[300px] flex-shrink-0 max-h-[300px] overflow-hidden">  <!-- 增加到更大的宽度和高度 -->
+        <div class="bg-orange-300/50 px-2 py-1 mb-2 rounded-md  ">
             {{ article.conference_year }}
         </div>
         <img 
