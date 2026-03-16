@@ -1,0 +1,119 @@
+{
+  "education": {
+    "courses": [
+      {
+        "course": "PhD in Computer Science and Engineering",
+        "institution": "The Hong Kong University of Science and Technology",
+        "year": "2024-Present"
+      },
+      {
+        "course": "MPhil in Computer Science and Engineering",
+        "institution": "The Hong Kong University of Science and Technology",
+        "year": "2022-2024"
+      },
+      {
+        "course": "BSc in Data Science and Technology",
+        "institution": "The Hong Kong University of Science and Technology",
+        "year": "2018-2022"
+      }
+    ]
+  },
+  "reviewing": [
+    { "venue": "NeurIPS 2025", "role": "Reviewer" },
+    { "venue": "ICLR 2025", "role": "Reviewer" },
+    { "venue": "ACL ARR 2024", "role": "Reviewer" },
+    { "venue": "ACL 2023", "role": "Reviewer" },
+    { "venue": "EMNLP 2023", "role": "Reviewer" }
+  ],
+  "timeline": [
+    {
+      "title": "Research Intern",
+      "company": "Qwen Team",
+      "companyUrl": "https://github.com/QwenLM",
+      "location": "Beijing, China",
+      "start": "2025-06-01",
+      "category": "research",
+      "roleType": "research",
+      "isCurrent": true,
+      "summary": "Focus: code agents with multi-turn reinforcement learning.",
+      "highlights": [
+        "Conducting research on code agents under multi-turn reinforcement learning settings.",
+        "Collaborating with the Qwen team on agent training and evaluation.",
+        "Exploring practical agent systems for coding workflows."
+      ]
+    },
+    {
+      "title": "PhD Student",
+      "company": "HKUST NLP Lab",
+      "companyUrl": "https://nlp.ust.hk/",
+      "location": "Hong Kong, China",
+      "start": "2024-09-01",
+      "category": "research",
+      "roleType": "research",
+      "isCurrent": true,
+      "summary": "Focus: data-centric pre-training, trustworthy LLMs, and efficient post-training.",
+      "highlights": [
+        "Working with Prof. Junxian He in the HKUST NLP Lab.",
+        "Researching data selection, prompt learning, and knowledge distillation for LLMs.",
+        "Publishing on pre-training and post-training methods for language models."
+      ]
+    },
+    {
+      "title": "Teaching Assistant",
+      "company": "The Hong Kong University of Science and Technology",
+      "location": "Hong Kong, China",
+      "start": "2025-01-01",
+      "end": "2025-05-31",
+      "category": "academic",
+      "roleType": "teaching",
+      "summary": "COMP 4211: Machine Learning (UG)",
+      "highlights": [
+        "Supported undergraduate machine learning teaching in Spring 2025.",
+        "Assisted with tutorials, grading, and student questions."
+      ]
+    },
+    {
+      "title": "Teaching Assistant",
+      "company": "The Hong Kong University of Science and Technology",
+      "location": "Hong Kong, China",
+      "start": "2024-01-01",
+      "end": "2024-05-31",
+      "category": "academic",
+      "roleType": "teaching",
+      "summary": "COMP 5212: Machine Learning (PG)",
+      "highlights": [
+        "Supported postgraduate machine learning teaching in Spring 2024.",
+        "Worked with students on assignments and course logistics."
+      ]
+    },
+    {
+      "title": "Teaching Assistant",
+      "company": "The Hong Kong University of Science and Technology",
+      "location": "Hong Kong, China",
+      "start": "2023-09-01",
+      "end": "2023-12-31",
+      "category": "academic",
+      "roleType": "teaching",
+      "summary": "COMP 2711H: Honors Discrete Mathematical Tools for Computer Science",
+      "highlights": [
+        "Supported honors discrete mathematics teaching in Fall 2023.",
+        "Helped students strengthen mathematical foundations for CS."
+      ]
+    },
+    {
+      "title": "Natural Language Processing Engineer",
+      "company": "Search and Strategy Department, Baidu China Co., Ltd.",
+      "location": "Beijing, China",
+      "start": "2021-06-01",
+      "end": "2021-09-30",
+      "category": "industry",
+      "roleType": "mle",
+      "summary": "Worked on e-commerce shopping search ranking and query-document matching.",
+      "highlights": [
+        "Designed and developed search algorithms under e-commerce shopping scenarios.",
+        "Optimized Query-Doc correlation calculation and ranking using semantic understanding techniques.",
+        "Improved ERNIE-based retrieval adaptation to goods' property information, raising recall at 90 precision from 82.6% to 88.9%."
+      ]
+    }
+  ]
+}

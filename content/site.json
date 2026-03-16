@@ -1,0 +1,73 @@
+{
+  "_comment": "Your basic info. Edit the values below, then run: npm run dev",
+
+  "name": {
+    "full": "KaShun SHUM",
+    "first": "KaShun",
+    "nickname": "KaShun",
+    "last": "SHUM",
+    "display": "KaShun SHUM",
+    "authorVariants": ["KaShun SHUM", "Kashun Shum", "KaShun Shum"]
+  },
+
+  "title": "Hi there, I'm KaShun SHUM",
+  "tagline": "My recent research focuses on code agent with multi-turn RL. Previously I widely explored the whole pipeline of LLM, ranging from Pre-training (Data-Centric), to Post-training (Trustworthy LLM, Knowledge Distillation, Prompt Learning) etc. On top of my research, I am equipped with full-stack abilities which include Front-end Development (Vue), backend (Django), Penetration Testing (Web and Crypto Exploit) and Embedded Development (Robots).",
+  "avatar": "kashun.png",
+
+  "terminal": {
+    "username": "kashun",
+    "rotatingSubtitles": [
+      "build code agents",
+      "study data-centric pre-training",
+      "take some photos"
+    ],
+    "skills": [
+      "Python", "C/C++", "Vue", "Django",
+      "PyTorch", "Transformers", "Web Security", "Robotics"
+    ],
+    "timezone": "Asia/Hong_Kong"
+  },
+
+  "contact": {
+    "email": "ksshumab@connect.ust.hk",
+    "academicEmail": "ksshumab@connect.ust.hk",
+    "hiringEmail": "ksshumab@connect.ust.hk",
+    "location": "Hong Kong, China"
+  },
+
+  "social": {
+    "github": "https://github.com/SHUMKASHUN",
+    "linkedin": "https://www.linkedin.com/in/kashunshum/",
+    "medium": "",
+    "googleScholar": "https://scholar.google.com/citations?user=JQakEawAAAAJ&hl=en",
+    "twitter": "https://x.com/ksshumab_",
+    "youtube": "",
+    "bilibili": "",
+    "zhihu": "",
+    "csdn": "",
+    "blog": "",
+    "resume": "/25Summer_Intern_SHUM_KASHUN.pdf",
+    "email": "mailto:ksshumab@connect.ust.hk"
+  },
+
+  "pets": [],
+
+  "features": {
+    "publications": true,
+    "projects": true,
+    "articles": true,
+    "experience": true,
+    "news": true,
+    "pets": false,
+    "guide": true
+  },
+
+  "heroSocialIcons": [
+    { "platform": "github", "icon": "FaGithub", "label": "GitHub", "color": "#24292f" },
+    { "platform": "twitter", "icon": "SiX", "label": "X", "color": "#111111" },
+    { "platform": "googleScholar", "icon": "SiGooglescholar", "label": "Google Scholar", "color": "#4285f4" },
+    { "platform": "resume", "icon": "FaFilePdf", "label": "Resume", "color": "#dc2626" }
+  ],
+
+  "selectedPublicationIds": ["icml2025-preselect", "emnlp2024-first", "acl2024-ragtruth", "emnlp2023-automate-cot"]
+}

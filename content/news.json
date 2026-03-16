@@ -1,0 +1,237 @@
+[
+  {
+    "type": "publication",
+    "badge": "Publication",
+    "icon": "FaFileAlt",
+    "iconColor": "blue.400",
+    "title": "1 paper accepted to ICLR 2026",
+    "description": "SWE-RM: Execution-free Feedback for Software Engineering Agents.",
+    "date": "January 2026",
+    "sortDate": "2026-01-26",
+    "links": [
+      { "text": "Paper", "url": "https://arxiv.org/abs/2512.21919", "icon": "FaFilePdf" }
+    ],
+    "detailItems": [
+      {
+        "title": "SWE-RM: Execution-free Feedback for Software Engineering Agents",
+        "shortLabel": "SWE-RM",
+        "summary": "Execution-free reward modeling for software engineering agents with strong test-time scaling and RL performance.",
+        "links": [
+          { "text": "Paper", "url": "https://arxiv.org/abs/2512.21919", "icon": "FaFilePdf" }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "release",
+    "badge": "1 technical report",
+    "icon": "FaFileAlt",
+    "iconColor": "blue.400",
+    "title": "1 Technical Report released",
+    "description": "Qwen3-Coder-Next Technical Report.",
+    "date": "March 2026",
+    "sortDate": "2026-03-01",
+    "links": [
+      { "text": "Paper", "url": "https://arxiv.org/abs/2603.00729", "icon": "FaFilePdf" },
+      { "text": "GitHub", "url": "https://github.com/QwenLM/Qwen3-Coder", "icon": "FaGithub" },
+      { "text": "Blog", "url": "https://qwen.ai/blog?id=qwen3-coder-next", "icon": "FaExternalLinkAlt" }
+    ],
+    "detailItems": [
+      {
+        "title": "Qwen3-Coder-Next Technical Report",
+        "shortLabel": "Qwen3-Coder-Next",
+        "summary": "An open-weight coding-agent technical report with large-scale agentic training and reinforcement learning.",
+        "links": [
+          { "text": "Paper", "url": "https://arxiv.org/abs/2603.00729", "icon": "FaFilePdf" },
+          { "text": "GitHub", "url": "https://github.com/QwenLM/Qwen3-Coder", "icon": "FaGithub" },
+          { "text": "Blog", "url": "https://qwen.ai/blog?id=qwen3-coder-next", "icon": "FaExternalLinkAlt" }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "release",
+    "badge": "Release",
+    "icon": "FaRocket",
+    "iconColor": "green.400",
+    "title": "Qwen3-Coder-Max/Flash released",
+    "description": "Qwen3-Coder-Max and Qwen3-Coder-Flash released.",
+    "date": "July 2025",
+    "sortDate": "2025-07-01",
+    "links": [
+      { "text": "GitHub", "url": "https://github.com/QwenLM/Qwen3-Coder", "icon": "FaGithub" },
+      { "text": "Blog", "url": "https://qwen.ai/blog?id=qwen3-coder", "icon": "FaExternalLinkAlt" },
+      { "text": "Model", "url": "https://huggingface.co/collections/Qwen/qwen3-coder", "icon": "FaRobot" }
+    ],
+    "detailItems": [
+      {
+        "title": "Qwen3-Coder-Max/Flash released",
+        "shortLabel": "Qwen3-Coder-Max/Flash",
+        "summary": "Qwen3-Coder-Max and Qwen3-Coder-Flash are released for coding and agentic programming workflows.",
+        "links": [
+          { "text": "GitHub", "url": "https://github.com/QwenLM/Qwen3-Coder", "icon": "FaGithub" },
+          { "text": "Blog", "url": "https://qwen.ai/blog?id=qwen3-coder", "icon": "FaExternalLinkAlt" },
+          { "text": "Model", "url": "https://huggingface.co/collections/Qwen/qwen3-coder", "icon": "FaRobot" }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "publication",
+    "badge": "Publication",
+    "icon": "FaFileAlt",
+    "iconColor": "blue.400",
+    "title": "1 paper accepted to ICML 2025",
+    "description": "PreSelect: Predictive Data Selection: The data that predicts is the data that teaches.",
+    "date": "June 2025",
+    "sortDate": "2025-06-01",
+    "links": [
+      { "text": "Paper", "url": "https://arxiv.org/abs/2503.00808", "icon": "FaFilePdf" },
+      { "text": "GitHub", "url": "https://github.com/hkust-nlp/PreSelect", "icon": "FaGithub" }
+    ],
+    "detailItems": [
+      {
+        "title": "Predictive data selection: The data that predicts is the data that teaches",
+        "shortLabel": "PreSelect",
+        "summary": "A lightweight data selection method that uses predictive signals to choose effective pre-training data.",
+        "links": [
+          { "text": "Paper", "url": "https://arxiv.org/abs/2503.00808", "icon": "FaFilePdf" },
+          { "text": "GitHub", "url": "https://github.com/hkust-nlp/PreSelect", "icon": "FaGithub" }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "publication",
+    "badge": "Publication",
+    "icon": "FaFileAlt",
+    "iconColor": "blue.400",
+    "title": "1 paper accepted to EMNLP 2024",
+    "description": "FIRST: Efficient trustworthy distillation for reliable large language models.",
+    "date": "September 2024",
+    "sortDate": "2024-09-01",
+    "links": [
+      { "text": "Paper", "url": "https://arxiv.org/abs/2408.12168", "icon": "FaFilePdf" },
+      { "text": "GitHub", "url": "https://github.com/SHUMKASHUN/FIRST", "icon": "FaGithub" }
+    ],
+    "detailItems": [
+      {
+        "title": "FIRST: Teach A Reliable Large Language Model Through Efficient Trustworthy Distillation",
+        "shortLabel": "FIRST",
+        "summary": "An efficient trustworthy distillation method for improving the reliability of large language models.",
+        "links": [
+          { "text": "Paper", "url": "https://arxiv.org/abs/2408.12168", "icon": "FaFilePdf" },
+          { "text": "GitHub", "url": "https://github.com/SHUMKASHUN/FIRST", "icon": "FaGithub" }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "news",
+    "badge": "Milestone",
+    "icon": "FaBolt",
+    "iconColor": "red.400",
+    "title": "Started PhD study at HKUST NLP",
+    "description": "Started PhD study at HKUST NLP Lab under the supervision of Prof. Junxian He.",
+    "date": "September 2024",
+    "sortDate": "2024-09-01",
+    "links": []
+  },
+  {
+    "type": "news",
+    "badge": "Milestone",
+    "icon": "FaBolt",
+    "iconColor": "red.400",
+    "title": "Started MPhil study at HKUST StatML Lab",
+    "description": "Began MPhil study at HKUST StatML Lab under the supervision of Prof. Tong Zhang.",
+    "date": "September 2022",
+    "sortDate": "2022-09-01",
+    "links": []
+  },
+  {
+    "type": "publication",
+    "badge": "Publication",
+    "icon": "FaFileAlt",
+    "iconColor": "blue.400",
+    "title": "2 papers accepted to ACL 2024",
+    "description": "Two ACL 2024 papers.",
+    "date": "May 2024",
+    "sortDate": "2024-05-01",
+    "links": [
+      { "text": "Paper", "url": "https://arxiv.org/abs/2401.00396", "icon": "FaFilePdf" },
+      { "text": "GitHub", "url": "https://github.com/ParticleMedia/RAGTruth", "icon": "FaGithub" },
+      { "text": "Paper", "url": "https://arxiv.org/abs/2311.08364", "icon": "FaFilePdf" }
+    ],
+    "detailItems": [
+      {
+        "title": "RAGTruth: A Hallucination Corpus for Developing Trustworthy Retrieval-Augmented Language Models",
+        "shortLabel": "RAGTruth",
+        "summary": "A word-level hallucination corpus for evaluating and improving trustworthy retrieval-augmented language models.",
+        "links": [
+          { "text": "Paper", "url": "https://arxiv.org/abs/2401.00396", "icon": "FaFilePdf" },
+          { "text": "GitHub", "url": "https://github.com/ParticleMedia/RAGTruth", "icon": "FaGithub" }
+        ]
+      },
+      {
+        "title": "Plum: Prompt Learning using Metaheuristic",
+        "shortLabel": "Plum",
+        "summary": "A metaheuristic approach to prompt learning that works in both white-box and black-box settings.",
+        "links": [
+          { "text": "Paper", "url": "https://arxiv.org/abs/2311.08364", "icon": "FaFilePdf" },
+          { "text": "GitHub", "url": "https://github.com/research4pan/Plum", "icon": "FaGithub" }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "publication",
+    "badge": "Publication",
+    "secondaryBadge": "Best Demo Paper",
+    "icon": "FaFileAlt",
+    "iconColor": "blue.400",
+    "title": "1 paper accepted to NAACL 2024",
+    "description": "NAACL 2024 demo paper.",
+    "date": "March 2024",
+    "sortDate": "2024-03-01",
+    "links": [
+      { "text": "Paper", "url": "https://arxiv.org/abs/2306.12420", "icon": "FaFilePdf" },
+      { "text": "GitHub", "url": "https://github.com/OptimalScale/LMFlow", "icon": "FaGithub" }
+    ],
+    "detailItems": [
+      {
+        "title": "LMFlow: An Extensible Toolkit for Finetuning and Inference of Large Foundation Models",
+        "shortLabel": "LMFlow",
+        "summary": "An extensible toolkit for fine-tuning and inference of large foundation models with modular training pipelines.",
+        "links": [
+          { "text": "Paper", "url": "https://arxiv.org/abs/2306.12420", "icon": "FaFilePdf" },
+          { "text": "GitHub", "url": "https://github.com/OptimalScale/LMFlow", "icon": "FaGithub" }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "publication",
+    "badge": "Publication",
+    "icon": "FaFileAlt",
+    "iconColor": "blue.400",
+    "title": "1 paper accepted to EMNLP 2023",
+    "description": "EMNLP 2023 paper.",
+    "date": "October 2023",
+    "sortDate": "2023-10-01",
+    "links": [
+      { "text": "Paper", "url": "https://arxiv.org/abs/2302.12822", "icon": "FaFilePdf" },
+      { "text": "GitHub", "url": "https://github.com/SHUMKASHUN/Automate-CoT", "icon": "FaGithub" }
+    ],
+    "detailItems": [
+      {
+        "title": "Automatic Prompt Augmentation and Selection with Chain-of-Thought from Labeled Data",
+        "shortLabel": "Automate-CoT",
+        "summary": "A method for automatically augmenting and selecting chain-of-thought prompts from labeled data.",
+        "links": [
+          { "text": "Paper", "url": "https://arxiv.org/abs/2302.12822", "icon": "FaFilePdf" },
+          { "text": "GitHub", "url": "https://github.com/SHUMKASHUN/Automate-CoT", "icon": "FaGithub" }
+        ]
+      }
+    ]
+  }
+]

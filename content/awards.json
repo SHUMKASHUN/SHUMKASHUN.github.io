@@ -1,0 +1,32 @@
+[
+  {
+    "title": "Dean's Honor List in 2019-2020 Academic Year",
+    "org": "The Hong Kong University of Science and Technology",
+    "date": "2020",
+    "kind": "honor"
+  },
+  {
+    "title": "Cyberport Creative Micro Fund (CCMF GBA YEP 2019)",
+    "org": "Cyberport",
+    "date": "2019",
+    "kind": "grant"
+  },
+  {
+    "title": "National First Prize in RoboMaster 2019 Final Tournament",
+    "org": "RoboMaster",
+    "date": "2019",
+    "kind": "competition"
+  },
+  {
+    "title": "First Place Winner in Kerry Logistics Hackathon 2019",
+    "org": "Kerry Logistics",
+    "date": "2019",
+    "kind": "hackathon"
+  },
+  {
+    "title": "Most Adorable Idea Award, HackUST 2021",
+    "org": "HackUST",
+    "date": "2021",
+    "kind": "innovation"
+  }
+]

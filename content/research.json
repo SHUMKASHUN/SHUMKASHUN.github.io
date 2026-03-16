@@ -1,0 +1,18 @@
+{
+  "currentResearch": [
+    {
+      "lab": "Qwen Team, Alibaba",
+      "emoji": "🧠",
+      "advisor": "Binyuan Hui · April 2025 - Present",
+      "focus": "code agent with multi-turn reinforcement learning",
+      "link": "https://github.com/QwenLM"
+    },
+    {
+      "lab": "HKUST NLP Lab",
+      "emoji": "🎓",
+      "advisor": "Prof. Junxian He · Sept 2024 - Present",
+      "focus": "data-centric pre-training and trustworthy LLMs",
+      "link": "https://nlp.ust.hk/"
+    }
+  ]
+}
