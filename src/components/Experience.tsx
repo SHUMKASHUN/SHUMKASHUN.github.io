@@ -1,4 +1,4 @@
-import React, { useState, useMemo } from 'react'
+import React, { useEffect, useState, useMemo } from 'react'
 import {
   Box, Collapse, Flex, HStack, Icon, Input, Text, VStack,
   Image, Link, useColorMode, useBreakpointValue,
@@ -28,6 +28,7 @@ const roleTypeConfig: Record<RoleType, { labelKey: string; color: (dk: boolean) 
   sde:        { labelKey: 'experience.roleSDE',        color: dk => dk ? '#d08770' : '#b35a2e' },
   teaching:   { labelKey: 'experience.roleTeaching',   color: dk => dk ? '#a3be8c' : '#34744e' },
   leadership: { labelKey: 'experience.roleLeadership', color: dk => dk ? '#ebcb8b' : '#c47d46' },
+  intern:     { labelKey: 'experience.roleIntern',     color: dk => dk ? '#88c0d0' : '#2a769c' },
 }
 
 /* ── Logos helper ────────────────────────────────────────────── */
@@ -50,6 +51,21 @@ const fmtDateFn = (v: string | undefined, presentLabel: string) => {
   return d.toLocaleDateString('en-US', { month: 'short', year: 'numeric' })
 }
 
+const fmtEducationDate = (v?: string) => {
+  if (!v) return ''
+  const d = new Date(v)
+  if (Number.isNaN(d.getTime())) return v
+  return d.toLocaleDateString('en-US', { month: 'short', year: 'numeric' }).replace(' ', '. ')
+}
+
+const fmtEducationRange = (start?: string, end?: string) => {
+  if (!start && !end) return ''
+  const startLabel = fmtEducationDate(start)
+  const endLabel = !end ? 'Present' : end.toLowerCase() === 'present' ? 'Present' : fmtEducationDate(end)
+  if (!startLabel) return endLabel
+  return `${startLabel} - ${endLabel}`
+}
+
 /* ── Component ─────────────────────────────────────────────────── */
 interface ExperienceProps {
   embedded?: boolean
@@ -67,6 +83,14 @@ const Experience: React.FC<ExperienceProps> = ({ embedded = false }) => {
   const [expandedItems, setExpandedItems] = useState<Record<string, boolean>>({})
   const [command, setCommand] = useState('')
   const [cmdOutput, setCmdOutput] = useState<string[]>([])
+  const [currentTime, setCurrentTime] = useState(new Date())
+
+  useEffect(() => {
+    const interval = window.setInterval(() => {
+      setCurrentTime(new Date())
+    }, 1000)
+    return () => window.clearInterval(interval)
+  }, [])
 
   /* Palette (centralized) */
   const tc = terminalPalette.colors(isDark)
@@ -229,7 +253,7 @@ const Experience: React.FC<ExperienceProps> = ({ embedded = false }) => {
               </Text>
             </HStack>
             <Text color={termHighlight}>
-              {new Date().toLocaleTimeString('en-US', { hour12: false, hour: '2-digit', minute: '2-digit', second: '2-digit' })}
+              {currentTime.toLocaleTimeString('en-US', { hour12: false, hour: '2-digit', minute: '2-digit', second: '2-digit' })}
             </Text>
           </Flex>
 
@@ -265,18 +289,56 @@ const Experience: React.FC<ExperienceProps> = ({ embedded = false }) => {
             <VStack align="stretch" spacing={1.5} pl={1}>
               {education.map(edu => {
                 const logo = institutionLogos[edu.institution]
+                const period = fmtEducationRange(edu.start, edu.end) || edu.year
                 return (
-                  <HStack key={edu.course} fontSize="xs" spacing={2}>
-                    {logo ? (
-                      <Image src={logo} alt="" w="16px" h="16px" borderRadius="sm" objectFit="contain" flexShrink={0} />
-                    ) : (
-                      <Box w="16px" h="16px" borderRadius="sm" bg={`${termCommand}20`} flexShrink={0} />
-                    )}
-                    <Text color={termText} fontWeight="medium">{edu.course}</Text>
-                    <Text color={termSecondary}>·</Text>
-                    <Text color={termCommand}>{edu.institution}</Text>
-                    <Text color={termSecondary} ml="auto" flexShrink={0}>{edu.year}</Text>
-                  </HStack>
+                  <Box key={edu.course} py={2.5} borderBottom={`1px dotted ${termBorder}`} _last={{ borderBottom: 'none' }}>
+                    <Flex gap={3} align="flex-start">
+                      {logo ? (
+                        <Image src={logo} alt="" w="24px" h="24px" borderRadius="sm" objectFit="contain" flexShrink={0} mt={0.5} />
+                      ) : (
+                        <Box w="24px" h="24px" borderRadius="sm" bg={`${termCommand}20`} flexShrink={0} mt={0.5} />
+                      )}
+                      <Box flex="1" minW={0}>
+                        <Flex align="flex-start" gap={3}>
+                          <Box flex="1" minW={0}>
+                            <Text color={termCommand} fontWeight="medium" fontSize="xs" lineHeight="1.4">
+                              {edu.institution}
+                            </Text>
+                            <Text color={termText} fontWeight="medium" fontSize="xs" lineHeight="1.5">
+                              {edu.course}
+                            </Text>
+                          </Box>
+                          <Text color={termSecondary} fontSize="xs" flexShrink={0} textAlign="right" mt={0.5}>
+                            {period}
+                          </Text>
+                        </Flex>
+                        {edu.details?.map((detail) => (
+                          <Text key={detail} color={termSecondary} fontSize="xs" lineHeight="1.5">
+                            {detail}
+                          </Text>
+                        ))}
+                        {edu.honors && edu.honors.length > 0 && (
+                          <Flex wrap="wrap" gap={2} mt={2}>
+                            {edu.honors.map((honor) => (
+                              <Box
+                                key={honor}
+                                px={2.5}
+                                py={1}
+                                borderRadius="md"
+                                bg={isDark ? 'rgba(94,129,172,0.18)' : 'rgba(191,219,254,0.9)'}
+                                color={isDark ? '#9fd4ff' : '#4b5563'}
+                                fontSize="xs"
+                                fontWeight="medium"
+                                lineHeight="1"
+                              >
+                                {honor}
+                              </Box>
+                            ))}
+                          </Flex>
+                        )}
+                      </Box>
+                    </Flex>
+                  </Box>
                 )
               })}
             </VStack>

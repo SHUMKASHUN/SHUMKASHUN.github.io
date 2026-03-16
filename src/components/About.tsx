@@ -6,7 +6,6 @@ import { useLocalizedData } from '@/hooks/useLocalizedData'
 
 // Import sub-components
 import HeroSection from './about/HeroSection'
-import Footer from './about/Footer'
 import NewsTimeline from './about/NewsTimeline'
 import AccomplishmentsTerminal from './AccomplishmentsTerminal'
 import PublicationsTerminal from './PublicationsTerminal'
@@ -133,7 +132,6 @@ function About() {
           
           <AccomplishmentsTerminal />
         </Box>
-        <Footer />
       </VStack>
     </Box>
   )

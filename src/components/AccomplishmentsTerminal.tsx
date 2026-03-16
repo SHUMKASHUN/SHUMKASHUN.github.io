@@ -115,14 +115,15 @@ const AwardRow = ({ award }: { award: Award }) => {
 const AccomplishmentsTerminal: React.FC = () => {
   const { t } = useTranslation()
   const { awards } = useLocalizedData()
+  const sortedAwards = [...awards].sort((a, b) => b.date.localeCompare(a.date))
   return (
     <Container maxW={["full", "full", "7xl"]} px={[2, 4, 8]}>
       <Heading size={["sm", "md"]} mb={3}>{t('about.awardsAndHonors')}</Heading>
       <Text fontSize="xs" color={useColorModeValue('gray.500', 'gray.400')} mb={4}>
-        {awards.length} {t('about.awardsSpanning')} {new Set(awards.map(a => a.kind)).size} {t('about.categories')}
+        {sortedAwards.length} {t('about.awardsSpanning')} {new Set(sortedAwards.map(a => a.kind)).size} {t('about.categories')}
       </Text>
       <VStack spacing={0} align="stretch">
-        {awards.map((a, i) => (
+        {sortedAwards.map((a, i) => (
           <AwardRow key={i} award={a} />
         ))}
       </VStack>

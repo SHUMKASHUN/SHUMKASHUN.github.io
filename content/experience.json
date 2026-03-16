@@ -4,17 +4,35 @@
       {
         "course": "PhD in Computer Science and Engineering",
         "institution": "The Hong Kong University of Science and Technology",
-        "year": "2024-Present"
+        "year": "2024-Present",
+        "start": "2024-09-01",
+        "details": [
+          "CGA: 4.06/4.3 (Top 1%)"
+        ],
+        "honors": [
+          "Hong Kong PhD Fellowship (HKPFS)",
+          "HKUST RedBird PhD Scholarship"
+        ]
       },
       {
         "course": "MPhil in Computer Science and Engineering",
         "institution": "The Hong Kong University of Science and Technology",
-        "year": "2022-2024"
+        "year": "2022-2024",
+        "start": "2022-09-01",
+        "end": "2024-08-31",
+        "honors": [
+          "Postgraduate Studentship (PGS)"
+        ]
       },
       {
         "course": "BSc in Data Science and Technology",
         "institution": "The Hong Kong University of Science and Technology",
-        "year": "2018-2022"
+        "year": "2018-2022",
+        "start": "2018-09-01",
+        "end": "2022-06-30",
+        "honors": [
+          "Dean's List"
+        ]
       }
     ]
   },
@@ -23,7 +41,11 @@
     { "venue": "ICLR 2025", "role": "Reviewer" },
     { "venue": "ACL ARR 2024", "role": "Reviewer" },
     { "venue": "ACL 2023", "role": "Reviewer" },
-    { "venue": "EMNLP 2023", "role": "Reviewer" }
+    { "venue": "EMNLP 2023", "role": "Reviewer" },
+    { "venue": "ICML 2026", "role": "Reviewer" },
+    { "venue": "ICLR 2026", "role": "Reviewer" },
+    { "venue": "NeurIPS 2026", "role": "Reviewer" },
+    { "venue": "ARR 2026", "role": "Reviewer" }
   ],
   "timeline": [
     {
@@ -31,59 +53,56 @@
       "company": "Qwen Team",
       "companyUrl": "https://github.com/QwenLM",
       "location": "Beijing, China",
-      "start": "2025-06-01",
-      "category": "research",
-      "roleType": "research",
+      "start": "2025-04-24",
+      "category": "industry",
+      "roleType": "intern",
       "isCurrent": true,
       "summary": "Focus: code agents with multi-turn reinforcement learning.",
       "highlights": [
-        "Conducting research on code agents under multi-turn reinforcement learning settings.",
-        "Collaborating with the Qwen team on agent training and evaluation.",
-        "Exploring practical agent systems for coding workflows."
+        "Conducting research on code agents especially in multi-turn reinforcement learning.",
+        "Training SOTA agentic coding models, contributed in Qwen3-Coder series."
       ]
     },
     {
-      "title": "PhD Student",
-      "company": "HKUST NLP Lab",
-      "companyUrl": "https://nlp.ust.hk/",
-      "location": "Hong Kong, China",
-      "start": "2024-09-01",
-      "category": "research",
-      "roleType": "research",
-      "isCurrent": true,
-      "summary": "Focus: data-centric pre-training, trustworthy LLMs, and efficient post-training.",
-      "highlights": [
-        "Working with Prof. Junxian He in the HKUST NLP Lab.",
-        "Researching data selection, prompt learning, and knowledge distillation for LLMs.",
-        "Publishing on pre-training and post-training methods for language models."
-      ]
+        "title": "Teaching Assistant",
+        "company": "The Hong Kong University of Science and Technology",
+        "location": "Hong Kong, China",
+        "start": "2026-02-01",
+        "category": "academic",
+        "roleType": "teaching",
+        "isCurrent": true,
+        "summary": "COMP 5212: Machine Learning (PG)",
+        "highlights": [
+            "Supported postgraduate machine learning teaching in Spring 2026 teached by Prof. Junxian He.",
+            "Assisted with assignment creation, grading, and student questions."
+        ]
     },
     {
       "title": "Teaching Assistant",
       "company": "The Hong Kong University of Science and Technology",
       "location": "Hong Kong, China",
-      "start": "2025-01-01",
+      "start": "2025-02-01",
       "end": "2025-05-31",
       "category": "academic",
       "roleType": "teaching",
       "summary": "COMP 4211: Machine Learning (UG)",
       "highlights": [
-        "Supported undergraduate machine learning teaching in Spring 2025.",
-        "Assisted with tutorials, grading, and student questions."
+        "Supported undergraduate machine learning teaching in Spring 2025 teached by Prof. Junxian He.",
+        "Assisted with tutorials, assignment creation, grading, and student questions."
       ]
     },
     {
       "title": "Teaching Assistant",
       "company": "The Hong Kong University of Science and Technology",
       "location": "Hong Kong, China",
-      "start": "2024-01-01",
+      "start": "2024-02-01",
       "end": "2024-05-31",
       "category": "academic",
       "roleType": "teaching",
       "summary": "COMP 5212: Machine Learning (PG)",
       "highlights": [
-        "Supported postgraduate machine learning teaching in Spring 2024.",
-        "Worked with students on assignments and course logistics."
+        "Supported postgraduate machine learning teaching in Spring 2024 teached by Prof. Junxian He.",
+        "Assisted with assignment creation, grading, and student questions."
       ]
     },
     {
@@ -96,18 +115,18 @@
       "roleType": "teaching",
       "summary": "COMP 2711H: Honors Discrete Mathematical Tools for Computer Science",
       "highlights": [
-        "Supported honors discrete mathematics teaching in Fall 2023.",
+        "Supported honors discrete mathematics teaching in Fall 2023 teached by Prof. Sunil Arya.",
         "Helped students strengthen mathematical foundations for CS."
       ]
     },
     {
-      "title": "Natural Language Processing Engineer",
+      "title": "Natural Language Processing Intern",
       "company": "Search and Strategy Department, Baidu China Co., Ltd.",
       "location": "Beijing, China",
       "start": "2021-06-01",
       "end": "2021-09-30",
       "category": "industry",
-      "roleType": "mle",
+      "roleType": "intern",
       "summary": "Worked on e-commerce shopping search ranking and query-document matching.",
       "highlights": [
         "Designed and developed search algorithms under e-commerce shopping scenarios.",

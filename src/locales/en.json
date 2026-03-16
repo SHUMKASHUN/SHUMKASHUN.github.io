@@ -57,7 +57,8 @@
     "roleMLE": "MLE",
     "roleSDE": "SDE",
     "roleTeaching": "Teaching",
-    "roleLeadership": "Leadership"
+    "roleLeadership": "Leadership",
+    "roleIntern": "Intern"
   },
   "projects": {
     "all": "ALL",

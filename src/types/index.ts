@@ -51,6 +51,10 @@ export interface Experience {
       course: string
       institution: string
       year: string
+      start?: string
+      end?: string
+      details?: string[]
+      honors?: string[]
     }[]
   }
   professional: {
@@ -74,7 +78,7 @@ export interface Experience {
 }
 
 export type ExperienceCategory = 'research' | 'industry' | 'academic' | 'leadership'
-export type RoleType = 'research' | 'mle' | 'sde' | 'teaching' | 'leadership'
+export type RoleType = 'research' | 'mle' | 'sde' | 'teaching' | 'leadership' | 'intern'
 
 export interface ExperienceEntry {
   title: string

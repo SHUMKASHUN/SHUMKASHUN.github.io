@@ -1,5 +1,29 @@
 [
   {
+    "title": "Hong Kong PhD Fellowship Scheme (HKPFS)",
+    "org": "Research Grants Council, Hong Kong",
+    "date": "2024",
+    "kind": "scholarship"
+  },
+  {
+    "title": "HKUST RedBird PhD Scholarship",
+    "org": "The Hong Kong University of Science and Technology",
+    "date": "2024",
+    "kind": "scholarship"
+  },
+  {
+    "title": "Postgraduate Studentship (PGS)",
+    "org": "The Hong Kong University of Science and Technology",
+    "date": "2022",
+    "kind": "scholarship"
+  },
+  {
+    "title": "Most Adorable Idea Award, HackUST 2021",
+    "org": "HackUST",
+    "date": "2021",
+    "kind": "innovation"
+  },
+  {
     "title": "Dean's Honor List in 2019-2020 Academic Year",
     "org": "The Hong Kong University of Science and Technology",
     "date": "2020",
@@ -12,6 +36,12 @@
     "kind": "grant"
   },
   {
+    "title": "Kaggle Expert",
+    "org": "Kaggle",
+    "date": "2019",
+    "kind": "competition"
+  },
+  {
     "title": "National First Prize in RoboMaster 2019 Final Tournament",
     "org": "RoboMaster",
     "date": "2019",
@@ -22,11 +52,5 @@
     "org": "Kerry Logistics",
     "date": "2019",
     "kind": "hackathon"
-  },
-  {
-    "title": "Most Adorable Idea Award, HackUST 2021",
-    "org": "HackUST",
-    "date": "2021",
-    "kind": "innovation"
   }
 ]
